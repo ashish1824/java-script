@@ -47,7 +47,7 @@ let str2 = "ashish"
 
 let str3 = str1 + str2
 console.log(str3);
-
+console.log("hello");
 console.log("1" + 2);
 console.log(1 + "2");
 console.log("1" + 2 + 2);
@@ -58,4 +58,6 @@ console.log((3 + 4) * 5 % 3)
 console.log(+true); // output 1
 console.log(+""); // output 0
 
-//console.log(true+); // output error 
+//console.log(true+); // output error c
+
+console.log("hjjkk")
