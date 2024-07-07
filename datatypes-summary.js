@@ -38,3 +38,26 @@ const myFunction = function(){
     
 console.log(typeof myObj);
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive) , Heap (non-primitive)
+
+let myYoutubeName = "ashishranjandotcom"
+
+let anothername = myYoutubeName    
+anothername = "ashish and arnav"
+
+console.log(myYoutubeName); // ashishranjandotcom
+console.log(anothername); // ashish and arnav
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}                           // In Heap work by reference
+
+let userTwo = userOne
+
+userTwo.email = "ashish@google.com"
+
+console.log(userOne.email); // ashish@google.com
+console.log(userTwo.email); // ashish@google.com
